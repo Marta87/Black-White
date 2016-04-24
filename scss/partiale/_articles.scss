@@ -1,0 +1,26 @@
+.articles{
+  height: 1500px;
+  width: auto;
+  background: #f3f3f3;
+ @extend %flex;
+  p{
+    font-family: $page-font;
+    padding-top: 25px;
+  }
+  [class*="box-"]{
+    height: 200px;
+    width: auto;
+   text-align: center;
+    margin: 10px 0;
+    img{
+      height: 200px;
+      width: 95%;
+    }
+  }
+  .subscribe{
+    height: 250px;
+    width: 70%;
+    background: #fff;
+  }
+  }
+ 

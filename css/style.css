@@ -1,0 +1,157 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+*, *:after, *:before {
+  box-sizing: border-box; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.articles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+nav {
+  height: 50px;
+  width: auto;
+  background: #001322; }
+  nav .logo {
+    display: none;
+    color: #fff;
+    padding-top: 16px;
+    padding-left: 3px;
+    font-family: "Quattrocento", serif;
+    font-size: 16px; }
+  nav .menu {
+    display: none;
+    float: right;
+    padding-right: 15px; }
+    nav .menu li {
+      display: inline-block;
+      padding: 15px 4px 0 2px; }
+      nav .menu li a {
+        text-decoration: none;
+        color: #fff; }
+  nav .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: 45px;
+    width: 100%; }
+  nav .hamburger-menu {
+    display: inline-block;
+    float: right;
+    padding-top: 10px;
+    padding-right: 40px;
+    height: 30px;
+    width: 20px; }
+    nav .hamburger-menu .hamburger-menu-line {
+      height: 5px;
+      width: 20px;
+      background: #85052D;
+      border-radius: 5px;
+      margin-top: 2px; }
+
+header {
+  min-height: 100vh;
+  height: 600px;
+  width: auto;
+  background: url(../img/ice-small.jpg) no-repeat; }
+  header .title {
+    padding-top: 70px;
+    text-align: center;
+    color: #fff;
+    font-family: "Quattrocento", serif;
+    font-size: 40px; }
+    header .title span {
+      font-size: 50px; }
+    header .title h2 {
+      padding-top: 5px;
+      font-size: 20px; }
+  header .button {
+    height: 25px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding-top: 4px;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    color: #fff;
+    background: rgba(52, 54, 57, 0.5);
+    border: 1px solid #fff; }
+
+.about-us {
+  height: 400px;
+  padding-top: 30px; }
+  .about-us .big-container {
+    margin: 30px;
+    text-align: justify;
+    font-family: Raleway, sans-serif;
+    font-size: 18px; }
+  .about-us .small-container {
+    margin: 30px 10px 10px 10px;
+    text-align: justify;
+    font-family: Raleway, sans-serif;
+    font-size: 14px; }
+
+.articles {
+  height: 1500px;
+  width: auto;
+  background: #f3f3f3; }
+  .articles p {
+    font-family: Raleway, sans-serif;
+    padding-top: 25px; }
+  .articles [class*="box-"] {
+    height: 200px;
+    width: auto;
+    text-align: center;
+    margin: 10px 0; }
+    .articles [class*="box-"] img {
+      height: 200px;
+      width: 95%; }
+  .articles .subscribe {
+    height: 250px;
+    width: 70%;
+    background: #fff; }
+
+/*# sourceMappingURL=style.css.map */

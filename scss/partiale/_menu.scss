@@ -1,0 +1,53 @@
+nav{
+  height: 50px;
+  width: auto;
+  background: #001322;
+  .logo{
+    display: none;
+    color: $logo-color;
+    padding-top: 16px;
+    padding-left: 3px;
+    font-family: $logo;
+    font-size: 16px;
+  }
+  .menu{
+    display: none;
+    float: right;
+    padding-right: 15px;
+   
+    li{
+      display: inline-block;
+      padding: 15px 4px 0 2px;
+      a{
+        text-decoration: none;
+         color: $logo-color;
+      }
+    
+    }
+  }
+   .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: 45px;
+    width: 100%;
+//    padding: 10px 0;
+//    background: $backgroundColorNav;
+  }
+  .hamburger-menu{
+    display: inline-block;
+    float: right;
+    padding-top: 10px;
+    padding-right: 40px;
+    height: 30px;
+    width: 20px;
+    .hamburger-menu-line{
+      height: 5px;
+      width: 20px;
+      background: $hamburger-menu-color;
+      border-radius: 5px;
+      margin-top: 2px;
+    } 
+  }
+}
