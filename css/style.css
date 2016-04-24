@@ -148,10 +148,51 @@ header {
     margin: 10px 0; }
     .articles [class*="box-"] img {
       height: 200px;
-      width: 95%; }
+      width: 80%; }
+    .articles [class*="box-"] figcaption {
+      height: 23px;
+      width: 80px;
+      position: absolute;
+      display: block;
+      margin-top: -200px;
+      margin-left: 30px;
+      padding-top: 2px;
+      color: #fff;
+      border: 1px solid #fff;
+      background-color: rgba(85, 85, 85, 0.5);
+      font-family: Raleway, sans-serif; }
   .articles .subscribe {
-    height: 250px;
-    width: 70%;
-    background: #fff; }
+    height: 180px;
+    width: 80%;
+    text-align: center;
+    background: #fff;
+    font-size: 19px; }
+    .articles .subscribe span {
+      font-weight: bold; }
+    .articles .subscribe input {
+      height: 30px;
+      width: 80%;
+      margin-top: 10px;
+      background: #f3f3f3;
+      border: 1px solid gray; }
+    .articles .subscribe .subscribe-button {
+      height: 40px;
+      width: 140px;
+      border: 1px solid gray;
+      margin: 10px auto;
+      font-size: 14px;
+      background: #343638;
+      font-family: Raleway, sans-serif;
+      padding-top: 11px;
+      color: #fff; }
+
+footer {
+  height: 50px;
+  width: auto; }
+  footer p {
+    font-family: "Quattrocento", serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */

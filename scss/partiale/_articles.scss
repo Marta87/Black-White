@@ -1,26 +1,63 @@
-.articles{
+.articles {
   height: 1500px;
   width: auto;
   background: #f3f3f3;
- @extend %flex;
-  p{
+  @extend %flex;
+  p {
     font-family: $page-font;
     padding-top: 25px;
   }
-  [class*="box-"]{
+  [class*="box-"] {
     height: 200px;
     width: auto;
-   text-align: center;
+    text-align: center;
     margin: 10px 0;
-    img{
+    img {
       height: 200px;
-      width: 95%;
+      width: 80%;
+    }
+    figcaption{
+      height: 23px;
+      width:  80px;
+      position: absolute;
+      
+      display: block;
+      margin-top: -200px;
+      margin-left: 30px;
+      padding-top: 2px;
+      color: #fff;
+      border: 1px solid #fff;
+      background-color: rgba(85, 85, 85, 0.5); 
+       font-family: $page-font;
     }
   }
-  .subscribe{
-    height: 250px;
-    width: 70%;
+  .subscribe {
+    height: 180px;
+    width: 80%;
+    text-align: center;
     background: #fff;
+    font-size: 19px;
+    span {
+      font-weight: bold;
+    }
+    input {
+      height: 30px;
+      width: 80%;
+      margin-top: 10px;
+      background: #f3f3f3;
+      border: 1px solid gray;
+    }
+    .subscribe-button {
+      height: 40px;
+      width: 140px;
+      border: 1px solid gray;
+      margin: 10px auto;
+      font-size: 14px;
+      background: #343638;
+      font-family: $page-font;
+        padding-top: 11px;
+        color: #fff;
+      
+    }
   }
-  }
- 
+}
